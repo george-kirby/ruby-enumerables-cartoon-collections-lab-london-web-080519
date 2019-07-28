@@ -21,5 +21,5 @@ def find_the_cheese(strings_array) # code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  strings_array.find {|word| 
+  strings_array.find {|word| #if word is also found in cheese_types
 end
